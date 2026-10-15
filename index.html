@@ -176,6 +176,7 @@
   <a class="brand" href="#top"><svg><use href="#U"/></svg><span>Ombú Sports<small>Experience</small></span></a>
   <div class="links">
     <a href="#tour" data-t="nav_tour">Football Tour</a>
+    <a href="#casa" data-t="nav_casa">Casa Ombú</a>
     <a href="#why" data-t="nav_why">Why Argentina</a>
     <a href="#contact" data-t="nav_contact">Contact</a>
     <div class="lang"><button id="en" class="on">EN</button><button id="es">ES</button></div>
@@ -257,6 +258,18 @@
   </div>
 </section>
 
+<section id="casa" style="padding: 80px 0;">
+  <div class="wrap about">
+    <img class="rv" src="img/casa-living.jpg" alt="" loading="lazy" style="height: 420px;">
+    <div>
+      <div class="k rv" data-t="cs_k">Casa Ombú · For players</div>
+      <h2 class="rv"><span data-t="cs_1">Come alone.</span><span class="thin" data-t="cs_2">We find your club.</span></h2>
+      <p class="lead rv" data-t="cs_p">For players from abroad who travel on their own and want to play in Argentina. You live at our residence in Buenos Aires, and we take you to trials at different clubs until we find the right one for your level.</p>
+      <div class="chips rv"><span data-t="cs_c1">Full board</span><span data-t="cs_c2">24/7 supervision</span><span data-t="cs_c3">Trials at different clubs</span><span data-t="cs_c4">Updates for your family</span></div>
+    </div>
+  </div>
+</section>
+
 <section style="background: var(--gris);">
   <div class="wrap">
     <div class="k rv" data-t="how_k">How it works</div>
@@ -314,7 +327,7 @@
       <input name="email" type="email" required data-ph="ph_email" placeholder="Email">
       <input name="club" data-ph="ph_club" placeholder="Club / academy">
       <input name="country" data-ph="ph_country" placeholder="Country">
-      <select name="interest" class="full"><option data-t="o1">Argentina Football Tour (team)</option><option data-t="o3">Other</option></select>
+      <select name="interest" class="full"><option data-t="o1">Argentina Football Tour (team)</option><option data-t="o2">Casa Ombú (player)</option><option data-t="o3">Other</option></select>
       <textarea name="message" id="msg" class="full" data-ph="ph_msg" placeholder="Tell us about your group: age group, players, dates..."></textarea>
       <button class="btn fill full" type="submit" data-t="send">Send</button>
     </form>
@@ -361,6 +374,7 @@ const T = {
   f4:"¿Es seguro?", f4p:"Sí. El grupo siempre tiene un contacto en el lugar, traslados privados y asistencia médica.", f5:"¿Hablan inglés?", f5p:"Sí. Trabajamos en inglés y castellano, y tenemos un agente en Estados Unidos.",
   f6:"¿Cuánto cuesta?", f6p:"Cada experiencia se arma a medida. Contanos de tu grupo y te mandamos una propuesta.",
   ct_k:"Contacto", ct_1:"Hablemos", ct_2:"de fútbol.", ct_p:"Contanos de tu equipo y te respondemos con una propuesta.",
+  cs_k:"Casa Ombú · Para jugadores", cs_1:"Vení solo.", cs_2:"Te buscamos club.", cs_p:"Para jugadores del exterior que viajan solos y quieren jugar en Argentina. Vivís en nuestra residencia en Buenos Aires, y te llevamos a probarte en distintos clubes hasta encontrar el indicado para tu nivel.", cs_c1:"Pensión completa", cs_c2:"Supervisión las 24 horas", cs_c3:"Pruebas en distintos clubes", cs_c4:"Informes para tu familia",
   o1:"Argentina Football Tour (equipo)", o2:"Casa Ombú (jugador)", o3:"Otro", send:"Enviar", by:"por",
   ph_name:"Tu nombre", ph_email:"Email", ph_club:"Club / academia", ph_country:"País", ph_msg:"Contanos de tu grupo: categoría, jugadores, fechas..."
  }
